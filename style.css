@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* s */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.big-container{
+   /*  background-color: rgba(87, 25, 230, 0.644); */
+    padding: 25px;
+    width: 520px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 5px rgba(255, 255, 255, 0.555);
+}
+.big-container h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.add-tache{
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+form input{
+    padding: 15px;  
+    height: 45px;
+    outline: 0;
+    width: 90%;
+    border: 1px groove black;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 18px;
+    margin-bottom: 15px;
+   
+}
+.add-tache button{
+    background-color: rgba(10, 4, 46, 0.911);
+    outline: 0;
+    color: white;
+    height: 45px;
+    width: 9%;
+    border-radius: 0px 5px 5px 0px;
+    float: right;
+    
+}
+/* .tache{
+    display: flex;
+    align-items: center;
+    display: flex; 
+    background-color: rgba(10, 4, 46, 0.911);
+    padding: 25px;
+    width: 100%;
+    height: 45px;
+    border: 1px groove rgb(172, 132, 236);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(253, 252, 252);
+} */
+/* .tache_title th{
+    padding-left: 60px;
+    /* padding: 10px; 
+    border: 2px solid black;
+    
+} */
+.tache_title{
+display:flex; 
+justify-content: center;
+align-items: center;
+
+}
+/* .tache button{
+    padding: 5px;
+}
+.btn{
+    padding: 8px;
+    outline: 0;
+    margin-left: 0px;
+    display: flex;
+    position: absolute;
+    left: 390px;
+}
+.del{
+    outline: 0;
+}
+.cont{
+    background-color: aqua;
+    width: 20%;
+} */
